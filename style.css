@@ -1,0 +1,46 @@
+* {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    -ms-box-sizing: border-box;
+    box-sizing: border-box; 
+
+    -moz-user-select: none; 
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+
+}
+body {
+    margin: 0; 
+}
+
+.nav-bar {
+    display: flex; 
+    flex-direction: row; 
+    background-color: antiquewhite;
+    border-bottom: 2px solid burlywood; 
+    width: 100%;
+    padding : 10px;
+}
+
+.nav-bar * {
+    margin : 5px 10px; 
+}
+
+canvas {
+    display: block; 
+    /* border: 2px solid black;  */
+    cursor: crosshair;
+}
+
+menu {
+    margin-bottom: 10px;
+   
+}
+
+#brush, #erase {
+    cursor: pointer; 
+    outline: none;
+}
+
+

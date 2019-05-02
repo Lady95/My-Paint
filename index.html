@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>My paint Application </title>
+    </head>
+    <body>
+        <nav class="nav-bar">
+
+            <button id="brush"> <img src="img/brush.png" alt="brush"></button>
+            <div id="colors">
+                Color: <input class="btn" type="color" id="myColor" name="myColor" value="#000000">
+            </div>
+            <div id="range">
+                Size: 1<input id="mySize"  type="range" value="5" min="1" max="50">100
+            </div>
+            <button id="erase"> <img src="img/eraser.png" alt="eraser"> </button>
+            <button id="save">Save</button>
+            <button id="reset">Reset</button>
+        </nav>
+        <main>
+            <canvas id="canvas"> Your browser does not support canvas.</canvas>
+        </main>
+        
+        <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+        <script src="paint.js"></script>
+    </body>
+</html>
