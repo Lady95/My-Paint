@@ -29,8 +29,10 @@ body {
 
 canvas {
     display: block; 
-    /* border: 2px solid black;  */
-    cursor: crosshair;
+    /* cursor: crosshair; */
+    /* margin: 60px; */
+    background-color: white;
+   
 }
 
 menu {
